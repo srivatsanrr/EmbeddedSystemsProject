@@ -1,12 +1,10 @@
-// sobel edge detection
 //        sobel edge detection
 
 //        | 1 0 -1 |           | 1 2 1 |
 //        | 2 0 -2 |           | 0 0 0 |
 //        | 1 0 -1 |           |-1 -2 -1 |
 
-
-module edge_detection(
+module edge_detection (
     input [23:0]colour_i0,
     input [23:0]colour_i1,
     input [23:0]colour_i2,
